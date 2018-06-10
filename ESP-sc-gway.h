@@ -178,7 +178,7 @@
 // MQTT definitions, these settings should be standard for TTN
 // and need not changing
 #define _TTNPORT 1700						// Standard port for TTN
-#define _TTNSERVER "router.eu.thethings.network"
+#define _TTNSERVER "router name"
 
 // If you have a second back-end server defined such as Semtech or loriot.io
 // your can define _THINGPORT and _THINGSERVER with your own value.
@@ -194,8 +194,8 @@
 //-------------------------------------------------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------------------------------------
 // Gateway Ident definitions
-#define _DESCRIPTION "ESP32 Gateway"
-#define _EMAIL "tcampos@gmail.com"
+#define _DESCRIPTION "description"
+#define _EMAIL "email"
 #define _PLATFORM "ESP32"
 #define _LAT 
 #define _LON 
@@ -204,7 +204,7 @@
 // ntp https://ntp.br
 
 #define NTP_TIMESERVER "a.st1.ntp.br"	     // Country and region specific
-#define NTP_TIMEZONES	-3					// How far is our Timezone from UTC (excl daylight saving/summer time)
+#define NTP_TIMEZONES	-3		     // Brazil Timezone from UTC (excl daylight saving/summer time)
 #define SECS_PER_HOUR	3600
 #define NTP_INTR 0							// Do NTP processing with interrupts or in loop();
 
@@ -253,7 +253,7 @@ struct wpas {
 //------------------------------------------------------------------------------------------------------------------
 wpas wpa[] = {
 { "" , "" },  // Reserved for WiFi Manager
-{ "VIVO-FD0F", "FB5E9AFD0F" }
+{ "wifi name", "wifi password" }
 };
 //--------------------------------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------------------------------
