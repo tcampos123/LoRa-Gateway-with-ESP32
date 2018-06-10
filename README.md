@@ -22,7 +22,9 @@ Line 90--> #define _PIN_OUT 3 , 3 is the configurations for the esp32 pins
 
 Line 181-->#define _TTNSERVER "router name", configure ttn router name "router name"
 
-Lines 197 to 202: #define _DESCRIPTION "description"
+Lines 197 to 202: Network Parameters TTN
+
+                  define _DESCRIPTION "description"
                   
                   define _EMAIL "email"
                   
@@ -33,3 +35,5 @@ Lines 197 to 202: #define _DESCRIPTION "description"
                   define _LON 
                   
                   define _ALT 8
+                  
+                  
