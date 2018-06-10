@@ -39,5 +39,10 @@ Lines 197 to 202: Network Parameters TTN
             
 Line257: { "YOUR WIFI SSID", "YOUR WIFI SSID PASSWORD" } , Insert wifi ssid and wifi password
 
+In the loraModem.h
 
+Line 31 to 46--> Select the frequency
+
+                  uint32_t  freq = freqs[9];
+                  uint8_t	 ifreq = 9;
     
