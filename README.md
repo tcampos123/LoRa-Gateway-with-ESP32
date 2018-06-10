@@ -16,7 +16,7 @@ libraries required (Arduino IDE)
 Configuratios (Arduino IDE)
 ===================================================== 
 
-In the file: ESP-sc-gway.h
+                                  In the file: ESP-sc-gway.h
 
 Line 90--> #define _PIN_OUT 3 , 3 is the configurations for the esp32 pins
 
@@ -39,7 +39,7 @@ Lines 197 to 202: Network Parameters TTN
             
 Line257: { "YOUR WIFI SSID", "YOUR WIFI SSID PASSWORD" } , Insert wifi ssid and wifi password
 
-In the loraModem.h
+                                     In the file: loraModem.h
 
 Line 31 to 46--> Select the frequency
 
