@@ -36,4 +36,8 @@ Lines 197 to 202: Network Parameters TTN
                   
                   define _ALT 8
                   
-                  
+            
+Line257: { "YOUR WIFI SSID", "YOUR WIFI SSID PASSWORD" } , Insert wifi ssid and wifi password
+
+
+    
