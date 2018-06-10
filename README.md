@@ -16,6 +16,7 @@ libraries required (Arduino IDE)
 Configuratios (Arduino IDE)
 ===================================================== 
 
-In the file ESP-sc-gway.h:
+In the file: ESP-sc-gway.h
 
-Line 90--> 
+Line 90--> #define _PIN_OUT 3 , 3 is the configurations for the esp32 pins
+
