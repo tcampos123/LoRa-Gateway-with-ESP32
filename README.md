@@ -17,4 +17,5 @@ Configuratios (Arduino IDE)
 ===================================================== 
 
 In the file ESP-sc-gway.h:
-Line 184->
+
+Line 90--> 
