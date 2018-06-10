@@ -1,7 +1,7 @@
 # LoRa-Gateway-with-ESP32
  Library required to build a gateway with esp32
  
-# Original Library
+Original Library
 =====================================================
 
 https://github.com/kersing/ESP-1ch-Gateway-v5.0
@@ -15,5 +15,6 @@ libraries required (Arduino IDE)
  
 Configuratios (Arduino IDE)
 ===================================================== 
- 
- Data to be inserted in the python code of the ttn network application:
+
+In the file ESP-sc-gway.h:
+Line 184->
