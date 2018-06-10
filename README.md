@@ -21,3 +21,15 @@ In the file: ESP-sc-gway.h
 Line 90--> #define _PIN_OUT 3 , 3 is the configurations for the esp32 pins
 
 Line 181-->#define _TTNSERVER "router name", configure ttn router name "router name"
+
+Lines 197 to 202: #define _DESCRIPTION "description"
+                  
+                  define _EMAIL "email"
+                  
+                  define _PLATFORM "ESP32"
+                  
+                  define _LAT 
+                  
+                  define _LON 
+                  
+                  define _ALT 8
