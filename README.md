@@ -49,3 +49,6 @@ Line 31 to 46--> Select the frequency
 
 References
 ===================================================== 
+
+https://www.thethingsnetwork.org/forum/t/big-esp32-sx127x-topic-part-1/10247/128
+
