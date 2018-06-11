@@ -48,19 +48,19 @@ Configurations
 
                                   In the file: ESP-sc-gway.ino
 
-Lines 142 to 147--> 
+Lines 142 to 147-->  Network Parameters TTN
                                 
-                                 float lat=0;						// Configuration specific info.
+                                 float lat=0;					
                                
-                                 float lon=0;                                              // Configuration specific info.
+                                 float lon=0;                                         
                                  
-                                 int   alt=0;                                              // Configuration specific info.
+                                 int   alt=0;                                          
                                  
-                                 char platform[24]	= "Esp32"; 				// platform definition
+                                 char platform[24]	= "Esp32"; 				
                                  
-                                 char email[40]		= "";    				// used for contact email
+                                 char email[40]		= "";    				
                                  
-                                 char description[64]= "";				// used for free form description 
+                                 char description[64]= "";				
 
 
                                   In the file: ESP-sc-gway.h
