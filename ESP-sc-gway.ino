@@ -139,9 +139,9 @@ sf_t sfi 			= _SPREADING;				// Initial value of SF
 // Set location, description and other configuration parameters
 // Defined in ESP-sc_gway.h
 //
-float lat			= -8;						// Configuration specific info...
-float lon			= -34;
-int   alt			= 15;
+float lat;						// Configuration specific info.
+float lon;                                              // Configuration specific info.
+int   alt;                                              // Configuration specific info.
 char platform[24]	= ""; 				// platform definition
 char email[40]		= "";    				// used for contact email
 char description[64]= "";				// used for free form description 
