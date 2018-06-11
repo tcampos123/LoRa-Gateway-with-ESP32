@@ -48,7 +48,20 @@ Configurations
 
                                   In the file: ESP-sc-gway.ino
 
-Lines 142 to 147--> #define _PIN_OUT 3 , 3 is the configurations for the esp32 pins
+Lines 142 to 147--> 
+                                
+                                 float lat=0;						// Configuration specific info.
+                               
+                                 float lon=0;                                              // Configuration specific info.
+                                 
+                                 int   alt=0;                                              // Configuration specific info.
+                                 
+                                 char platform[24]	= "Esp32"; 				// platform definition
+                                 
+                                 char email[40]		= "";    				// used for contact email
+                                 
+                                 char description[64]= "";				// used for free form description 
+
 
                                   In the file: ESP-sc-gway.h
 
