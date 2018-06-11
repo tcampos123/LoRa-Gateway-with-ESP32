@@ -43,7 +43,7 @@ libraries required (Arduino IDE)
 
 2-U8G2
  
-Configuratios (Arduino IDE)
+Configurations
 ===================================================== 
 
                                   In the file: ESP-sc-gway.h
