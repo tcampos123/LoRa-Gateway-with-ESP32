@@ -1,4 +1,4 @@
-# LoRa-Gateway-with-ESP32/NiceRFLora1276(915Mhz)
+# LoRa-Gateway-with-ESP32/NiceRF-Lora1276(915Mhz)
  Library required to build a gateway with esp32
  
 Original Library
@@ -10,7 +10,22 @@ Testing
 =====================================================
 
 ESP32 based nodes with NiceRF-Lora1276 transceivers.
- 
+
+Connections
+=====================================================
+
+Esp32Pin----------------------NiceRF-Lora1276(915Mhz)
+3.3V--------------------------3.3V
+Gnd---------------------------Gnd
+GPIO18------------------------SCK
+GPIO19------------------------MISO
+GPIO23------------------------MOSI
+GPIO5-------------------------CS
+GPIO22------------------------RST
+GPIO17------------------------dio0
+GPIO16------------------------dio1
+GPIO4-------------------------dio2
+
 libraries required (Arduino IDE)
 =====================================================
 
