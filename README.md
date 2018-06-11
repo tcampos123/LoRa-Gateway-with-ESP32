@@ -1,10 +1,15 @@
-# LoRa-Gateway-with-ESP32
+# LoRa-Gateway-with-ESP32/NiceRFLora1276(915Mhz)
  Library required to build a gateway with esp32
  
 Original Library
 =====================================================
 
 https://github.com/kersing/ESP-1ch-Gateway-v5.0
+
+Testing
+=====================================================
+
+ESP32 based nodes with NiceRF-Lora1276 transceivers.
  
 libraries required (Arduino IDE)
 =====================================================
