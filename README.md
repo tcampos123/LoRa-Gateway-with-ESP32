@@ -82,3 +82,5 @@ References
 
 https://www.thethingsnetwork.org/forum/t/big-esp32-sx127x-topic-part-1/10247/128
 
+http://www.nicerf.com/product_180_241.html
+
