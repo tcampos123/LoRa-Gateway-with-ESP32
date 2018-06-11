@@ -139,12 +139,12 @@ sf_t sfi 			= _SPREADING;				// Initial value of SF
 // Set location, description and other configuration parameters
 // Defined in ESP-sc_gway.h
 //
-float lat			= -8.05043745;						// Configuration specific info...
-float lon			= -34.95626686;
+float lat			= -8;						// Configuration specific info...
+float lon			= -34;
 int   alt			= 15;
-char platform[24]	= "ESP32"; 				// platform definition
-char email[40]		= "tcampos@gmail.com";    				// used for contact email
-char description[64]= "ESP32 Gateway";				// used for free form description 
+char platform[24]	= ""; 				// platform definition
+char email[40]		= "";    				// used for contact email
+char description[64]= "";				// used for free form description 
 
 // define servers
 
