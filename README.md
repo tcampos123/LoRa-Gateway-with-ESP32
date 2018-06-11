@@ -65,7 +65,7 @@ Lines 142 to 147-->  Network Parameters TTN
 
                                   In the file: ESP-sc-gway.h
 
-Line 51--> Define spreading factor
+Line 51--> #define _SPREADING SF7,  Define spreading factor
 
 Line 90--> #define _PIN_OUT 3 , 3 is the configurations for the esp32 pins
 
